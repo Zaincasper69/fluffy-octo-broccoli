@@ -1,0 +1,30 @@
+{
+    "chat.agent.networkFilter": true,
+    "chat.checkpoints.showFileChanges": true,
+    "chat.undoRequests.restoreInput": true,
+    "chat.agent.sandbox.autoApproveUnsandboxedCommands": true,
+    "chat.agent.thinkingStyle": "collapsedPreview",
+    "chat.editor.wordWrap": "off",
+    "chat.editing.explainChanges.enabled": true,
+    "chat.unifiedAgentsBar.enabled": true,
+    "chat.viewProgressBadge.enabled": true,
+    "chat.viewSessions.enabled": true,
+    "chat.exitAfterDelegation": true,
+    "chat.mcp.discovery.enabled": {
+        "claude-desktop": true,
+        "cursor-global": true,
+        "cursor-workspace": true
+    },
+    "chat.mcp.gallery.enabled": true,
+    "chat.includeReferencedInstructions": true,
+    "inlineChat.notebookAgent": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./test",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
